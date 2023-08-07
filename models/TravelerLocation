@@ -1,5 +1,7 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection.js');
+const Traveler = require('./Traveler.js')
+const Location = require('./Location.js')
 class TravelerLocation extends Model { }
 
 TravelerLocation.init(
@@ -20,3 +22,4 @@ TravelerLocation.init(
           }
     }
 )
+module.exports = TravelerLocation;
