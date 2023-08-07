@@ -27,3 +27,5 @@ Traveler.init(
         modelName: 'tag',
     }
 )
+
+module.exports = Traveler;
